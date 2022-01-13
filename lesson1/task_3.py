@@ -9,3 +9,11 @@
 --- обязательно!!! усложните задачу, "отловив" и обработав исключение,
 придумайте как это сделать
 """
+
+words = ('attribute', 'класс', 'функция', 'type')
+
+for word in words:
+    try:
+        print(bytes(word, 'ascii'))
+    except UnicodeEncodeError:
+        print(f'cant encode {word} into bytes')
