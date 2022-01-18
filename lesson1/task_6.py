@@ -23,3 +23,11 @@
 
 НАРУШЕНИЕ обозначенных условий - задание не выполнено!!!
 """
+import chardet
+
+with open('test_file.txt', 'rb') as f_n:
+    for el_str in f_n:
+        print(el_str)
+        result = chardet.detect(el_str)
+        line = el_str.decode(result['encoding']).encode('utf-8')
+        print(line.decode('utf-8'))
