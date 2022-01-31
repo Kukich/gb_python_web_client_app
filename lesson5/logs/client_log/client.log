@@ -1,0 +1,10 @@
+2022-01-27 16:22:19,163 DEBUG log_config.py Hello client
+2022-01-27 16:22:25,306 DEBUG log_config.py Hello client
+2022-01-27 16:22:25,308 INFO client.py Запускаем клиента
+2022-01-27 16:22:25,308 INFO client.py Подключаемся к 127.0.0.1:7777
+2022-01-27 16:22:25,310 INFO client.py Клиент отправил сообщение 
+2022-01-27 16:22:25,310 INFO client.py {'action': 'presence',
+ 'time': 1643289745.3100185,
+ 'user': {'account_name': 'Guest'}}
+2022-01-27 16:22:25,312 INFO client.py Сервер прислал ответ клиенту
+2022-01-27 16:22:25,313 INFO client.py '200 : OK'

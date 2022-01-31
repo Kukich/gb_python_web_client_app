@@ -1,0 +1,15 @@
+2022-01-27 16:22:19,166 DEBUG log_config.py Hello server
+2022-01-27 16:22:19,184 INFO server.py Попытка запуска сервера
+2022-01-27 16:22:19,185 INFO server.py Не введен хост : используется дефолтный хост 127.0.0.1
+2022-01-27 16:22:19,185 INFO server.py Не введен порт : используется дефолтный порт 7777
+2022-01-27 16:22:19,185 INFO ClientServer.py Сервер создает сокет
+2022-01-27 16:22:19,186 INFO ClientServer.py Сокет создан
+2022-01-27 16:22:19,186 INFO ClientServer.py Сервер стартует
+2022-01-27 16:22:25,308 DEBUG log_config.py Hello server
+2022-01-27 16:22:25,310 INFO ClientServer.py Сервер получил сообщение от клиента
+2022-01-27 16:22:25,312 INFO ClientServer.py Сервер обрабатывает сообщение клиента
+2022-01-27 16:22:25,312 INFO ClientServer.py {'action': 'presence',
+ 'time': 1643289745.3100185,
+ 'user': {'account_name': 'Guest'}}
+2022-01-27 16:22:25,312 INFO ClientServer.py Сервер отвечает клиенту
+2022-01-27 16:22:25,312 INFO ClientServer.py {'response': 200}
