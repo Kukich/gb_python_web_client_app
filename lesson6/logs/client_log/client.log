@@ -1,0 +1,22 @@
+2022-02-03 18:34:57,062 INFO client.py Запускаем клиента
+2022-02-03 18:34:57,062 INFO client.py Подключаемся к 127.0.0.1:7777
+2022-02-03 18:34:57,095 INFO log_config.py Была вызвана функция create_socket c параметрами (<ClientServer.ClientSocket object at 0x000001C4E5716F70>, '127.0.0.1', 7777), {}. Вызов из модуля ClientServer. Вызов из функции client.create_socket(server_host,server_port).Вызов из функции <module>
+2022-02-03 18:34:57,095 INFO client.py Клиент отправил сообщение 
+2022-02-03 18:34:57,096 INFO log_config.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля ClientServer. Вызов из функции ClientSocket.create_presence().Вызов из функции <module>
+2022-02-03 18:34:57,096 INFO client.py {'action': 'presence',
+ 'time': 1643902497.095307,
+ 'user': {'account_name': 'Guest'}}
+2022-02-03 18:34:57,101 INFO log_config.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля ClientServer. Вызов из функции ClientSocket.process_ans(client.get_message(transport)).Вызов из функции <module>
+2022-02-03 18:34:57,101 INFO client.py Сервер прислал ответ клиенту
+2022-02-03 18:34:57,101 INFO client.py '200 : OK'
+2022-02-03 18:35:12,853 INFO client.py Запускаем клиента
+2022-02-03 18:35:12,853 INFO client.py Подключаемся к 127.0.0.1:7777
+2022-02-03 18:35:12,887 INFO log_config.py Была вызвана функция create_socket c параметрами (<ClientServer.ClientSocket object at 0x000001E4BF766F70>, '127.0.0.1', 7777), {}. Вызов из модуля ClientServer. Вызов из функции client.create_socket(server_host,server_port).Вызов из функции <module>
+2022-02-03 18:35:12,887 INFO client.py Клиент отправил сообщение 
+2022-02-03 18:35:12,888 INFO log_config.py Была вызвана функция create_presence c параметрами (), {}. Вызов из модуля ClientServer. Вызов из функции ClientSocket.create_presence().Вызов из функции <module>
+2022-02-03 18:35:12,889 INFO client.py {'action': 'presence',
+ 'time': 1643902512.8871226,
+ 'user': {'account_name': 'Guest'}}
+2022-02-03 18:35:12,893 INFO log_config.py Была вызвана функция process_ans c параметрами ({'response': 200},), {}. Вызов из модуля ClientServer. Вызов из функции ClientSocket.process_ans(client.get_message(transport)).Вызов из функции <module>
+2022-02-03 18:35:12,893 INFO client.py Сервер прислал ответ клиенту
+2022-02-03 18:35:12,893 INFO client.py '200 : OK'

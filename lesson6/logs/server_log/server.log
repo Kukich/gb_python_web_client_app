@@ -1,0 +1,31 @@
+2022-02-03 18:31:27,563 INFO server.py Попытка запуска сервера
+2022-02-03 18:31:27,566 INFO server.py Не введен хост : используется дефолтный хост 127.0.0.1
+2022-02-03 18:31:27,566 INFO server.py Не введен порт : используется дефолтный порт 7777
+2022-02-03 18:31:27,566 INFO ClientServer.py Сервер создает сокет
+2022-02-03 18:31:27,567 INFO ClientServer.py Сокет создан
+2022-02-03 18:31:27,604 INFO log_config.py Была вызвана функция create_socket c параметрами (<ClientServer.ServerSocket object at 0x00000230CC3EA370>, '127.0.0.1', 7777), {}. Вызов из модуля ClientServer. Вызов из функции serv.create_socket(server_host,server_port).Вызов из функции <module>
+2022-02-03 18:31:27,605 INFO ClientServer.py Сервер стартует
+2022-02-03 18:32:44,012 INFO ClientServer.py Сервер получил сообщение от клиента
+2022-02-03 18:32:44,049 INFO ClientServer.py Сервер обрабатывает сообщение клиента
+2022-02-03 18:32:44,049 INFO ClientServer.py {'action': 'presence',
+ 'time': 1643902364.0473173,
+ 'user': {'account_name': 'Guest'}}
+2022-02-03 18:32:44,051 INFO log_config.py Была вызвана функция process_client_message c параметрами (<ClientServer.ServerSocket object at 0x00000230CC3EA370>, {'action': 'presence', 'time': 1643902364.0473173, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля ClientServer. Вызов из функции serv.start_server(transport).Вызов из функции start_server
+2022-02-03 18:32:44,052 INFO ClientServer.py Сервер отвечает клиенту
+2022-02-03 18:32:44,052 INFO ClientServer.py {'response': 200}
+2022-02-03 18:34:57,063 INFO ClientServer.py Сервер получил сообщение от клиента
+2022-02-03 18:34:57,096 INFO ClientServer.py Сервер обрабатывает сообщение клиента
+2022-02-03 18:34:57,096 INFO ClientServer.py {'action': 'presence',
+ 'time': 1643902497.095307,
+ 'user': {'account_name': 'Guest'}}
+2022-02-03 18:34:57,099 INFO log_config.py Была вызвана функция process_client_message c параметрами (<ClientServer.ServerSocket object at 0x00000230CC3EA370>, {'action': 'presence', 'time': 1643902497.095307, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля ClientServer. Вызов из функции serv.start_server(transport).Вызов из функции start_server
+2022-02-03 18:34:57,099 INFO ClientServer.py Сервер отвечает клиенту
+2022-02-03 18:34:57,100 INFO ClientServer.py {'response': 200}
+2022-02-03 18:35:12,854 INFO ClientServer.py Сервер получил сообщение от клиента
+2022-02-03 18:35:12,889 INFO ClientServer.py Сервер обрабатывает сообщение клиента
+2022-02-03 18:35:12,890 INFO ClientServer.py {'action': 'presence',
+ 'time': 1643902512.8871226,
+ 'user': {'account_name': 'Guest'}}
+2022-02-03 18:35:12,892 INFO log_config.py Была вызвана функция process_client_message c параметрами (<ClientServer.ServerSocket object at 0x00000230CC3EA370>, {'action': 'presence', 'time': 1643902512.8871226, 'user': {'account_name': 'Guest'}}), {}. Вызов из модуля ClientServer. Вызов из функции serv.start_server(transport).Вызов из функции start_server
+2022-02-03 18:35:12,892 INFO ClientServer.py Сервер отвечает клиенту
+2022-02-03 18:35:12,892 INFO ClientServer.py {'response': 200}
