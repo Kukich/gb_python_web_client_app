@@ -1,0 +1,11 @@
+-  name: "client"
+   LOG_LEVEL: "DEBUG"
+   STREAM_LOG_LEVEL: "ERROR"
+   FORMAT: '%(asctime)s %(levelname)s %(filename)s %(message)s'
+   ROTATION: 0
+-  name: "server"
+   LOG_LEVEL: "DEBUG"
+   STREAM_LOG_LEVEL: "ERROR"
+   FORMAT: '%(asctime)s %(levelname)s %(filename)s %(message)s'
+   ROTATION: 1
+
