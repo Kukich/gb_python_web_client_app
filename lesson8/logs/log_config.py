@@ -5,7 +5,22 @@ import yaml
 import logging.handlers
 sys.path.append(os.path.join(os.getcwd(), '..'))
 from common.variables import CONFIG_LOG
+import traceback
+import inspect
 
+def log_decorator(type):
+    def decorator(func):
+        def wrapper(*args, **kwargs):
+            """Обертка"""
+            log_obj = logging.getLogger(type)
+            res = func(*args, **kwargs)
+            log_obj.info(f'Была вызвана функция {func.__name__} c параметрами {args}, {kwargs}. '
+                         f'Вызов из модуля {func.__module__}. Вызов из'
+                         f' функции {traceback.format_stack()[0].strip().split()[-1]}.'
+                         f'Вызов из функции {inspect.stack()[1][3]}')
+            return res
+        return wrapper
+    return decorator
 
 
 def mkdir_p(path):
